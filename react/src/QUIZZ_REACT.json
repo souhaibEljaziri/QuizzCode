@@ -1,0 +1,58 @@
+[
+    {
+      "question": "What's React JS",
+      "suggestion": [
+        { "answer": "Front Framework", "type": "text", "correct": true },
+        { "answer": "Backend Framework", "type": "text", "correct": false },
+        { "answer": "Security tools", "type": "text", "correct": false },
+        { "answer": "DBMS", "type": "text", "correct": false }
+      ]
+    },
+    {
+      "question": "What is JSX in React?",
+      "suggestion": [
+        { "answer": "A syntax extension for JavaScript", "type": "text", "correct": true },
+        { "answer": "A styling language for React components", "type": "text", "correct": false },
+        { "answer": "A library for managing component state", "type": "text", "correct": false },
+        { "answer": "A way to define component lifecycle methods", "type": "text", "correct": false }
+      ]
+    },
+    {
+      "question": "Identify the component with props (properties) passed to it.",
+      "image": "[Image React component with props]",  
+      "suggestion": [
+        { "answer": "Component A: <MyComponent message='Hello!' />", "type": "text", "correct": true },
+        { "answer": "Component B: function MyComponent() { ... }", "type": "text", "correct": false },
+        { "answer": "Component C: <div>This is just HTML</div>", "type": "text", "correct": false },
+        { "answer": "Component D: const styles = { ... }", "type": "text", "correct": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of a key prop in React lists?",
+      "suggestion": [
+        { "answer": "To identify unique items for efficient rendering", "type": "text", "correct": true },
+        { "answer": "To style each item in the list differently", "type": "text", "correct": false },
+      { "answer": "To pass data between list items", "type": "text", "correct": false },
+        { "answer": "To animate list items on update", "type": "text", "correct": false }
+      ]
+    },
+    {
+      "question": "How do you prevent a component from re-rendering unnecessarily in React?",
+      "suggestion": [
+        { "answer": "By using memoization techniques like React.memo", "type": "text", "correct": true },
+        { "answer": "By directly manipulating the DOM", "type": "text", "correct": false },
+        { "answer": "By making all state variables constant (const)", "type": "text", "correct": false },
+        { "answer": "By refreshing the browser window", "type": "text", "correct": false }
+      ]
+    },
+    {
+      "question": "What is the difference between controlled and uncontrolled components in React?",
+      "suggestion": [
+        { "answer": "Controlled components: Value managed by state, uncontrolled components: Value managed by DOM", "type": "text", "correct": true },
+        { "answer": "Controlled components: Used for forms, uncontrolled components: Used for display", "type": "text", "correct": false },
+        { "answer": "There's no difference, both are the same", "type": "text", "correct": false },
+        { "answer": "This concept applies to Angular, not React", "type": "text", "correct": false }
+      ]
+    }
+  ]
+  
